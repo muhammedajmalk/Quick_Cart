@@ -1,0 +1,68 @@
+.main_img {
+    width: 100%;
+    height: 100%;
+}
+
+.card_img {
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.box {
+    --bs-border-radius: none;
+}
+
+#hero {
+    background: url(https://www.savingshub.com/wp-content/uploads/2019/07/sample-banner.jpg) no-repeat center center fixed;
+    display: table;
+    background-attachment: fixed;
+    height: 500px;
+    background: cover;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.best {
+    width: 100%;
+    height: 400px;
+}
+
+.product_Arrvl {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.All_Product{
+    width: 100px;
+    height: 350px;
+    margin-left: auto;
+
+}
+.size{
+    width: 200px;
+    height: 200px;
+}
+
+.Quick_View{
+    width: 190px;
+    height: 40px;
+    background-color: rgb(17, 186, 130);
+    border: 0;
+    color: rgb(254, 254, 254);
+}
+.Quick_View:hover{
+    opacity: 1;
+}
+
+.cart-button{
+    width: 200px;
+}
+
+
+@media (max-width: 600px) {
+    
+}
